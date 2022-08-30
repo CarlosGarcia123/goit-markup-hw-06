@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>HTML</title>
+    <link
+      rel="stylesheet"
+      href="-css/modern-normalize-main/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eb6088df41.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-3">
+      <header>
+        <div class="seccion-menu-2">
+          <nav class="menu-2">
+            <a class="logo-color" href="index.html">WebStudio</a>
+            <a class="menu-text menu-border menu-item1" href="index.html"
+              >Estudio</a
+            >
+            <a class="menu-text menu-border menu-item2" href="portfolio.html"
+              >Portafolio</a
+            >
+            <a class="menu-text menu-border menu-item3" href="contactos.html"
+              >Contacto</a
+            >
+          </nav>
+          <div class="email">
+            <div class="menu-text number-color menu-item4">
+              <img
+                src="images/sobre.png"
+                class="menu-text number-color"
+                alt="Sobre"
+                width="10"
+              />&nbsp info@devstudio.com
+            </div>
+            <div class="menu-text number-color menu-item5">
+              <img
+                src="images/Vector.png"
+                class="menu-text number-color"
+                alt="Vector"
+                width="8"
+              />&nbsp +52 55 5529 6000
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="seccion-form">
+          <form class="form" name="contacts" autocomplete="off">
+            <div class="container-input">
+              <h2 class="titulo">
+                Deje sus datos, nos contactaremos con usted
+              </h2>
+              <label for="fname">Nombre</label><br />
+              <input
+                class="form-input icon-user"
+                name="nombre"
+                type="text"
+                required
+              /><br />
+              <label for="fname">Teléfono</label><br />
+              <input
+                class="form-input icon-phone"
+                name="telefono"
+                type="tel"
+                required
+              /><br />
+
+              <label for="fname">E-mail</label><br />
+              <input
+                class="form-input icon-message"
+                name="email"
+                type="email"
+                required
+              /><br />
+
+              <label class="form-label" for="mensaje">Comentarios</label><br />
+              <textarea
+                class="form-text"
+                id="mensaje"
+                name="comentarios"
+                placeholder="Introduzca el texto"
+              ></textarea
+              ><br />
+
+              <input
+                class="form-check"
+                type="checkbox"
+                name="validacion"
+                value="De Acuerdo"
+                required
+              />
+              <label class="form-validation" for="mensaje"
+                >Estoy de acuerdo con el boletín informativo y acepto los
+                <span class="salt">Términos y Condiciones</span></label
+              ><br />
+
+              <button class="button-send" type="submit">
+                <span>Enviar</span>
+              </button>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="section-footer">
+        <address class="contact-2">
+          <a class="logo-footer" href="index.html">WebStudio</a> <br />
+          Calz. Ticomán 500, Ciudad de
+          México, CDMX, México
+          <spam
+            >info@example.com <br />
+            +52 55 5529 6000</spam
+          >
+        </address>
+
+        <address class="icons">
+          <p>ENCUENTRENOS EN</p>
+          <div class="group-icons">
+            <div class="circulo">
+              <i
+                class="fa-brands fa-instagram small-instagram fa-2x fa-icon"
+              ></i>
+            </div>
+            <div class="circulo">
+              <i class="fa-brands fa-twitter fa-2x fa-icon"></i>
+            </div>
+            <div class="circulo">
+              <i class="fa-brands fa-facebook-f fa-2x fa-icon"></i>
+            </div>
+            <div class="circulo">
+              <i class="fa-brands fa-linkedin-in fa-2x fa-icon"></i>
+            </div>
+          </div>
+        </address>
+
+        <address class="bulletin">
+          <form class="form-2" name="form bulletin" autocomplete="off">
+            <p>SUSCRÍBASE AL BOLETÍN INFORMATIVO</p><br />
+            <div class="form-bulletin">
+              
+              <input
+                class="form-input-email"
+                name="email"
+                type="email"
+                placeholder="Correo electrónico"
+                required
+              />
+  
+              <button class="button-bulletin icon-plane" type="submit">
+                <span>Suscríbase</span>
+              </button>
+  
+            </div>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>
