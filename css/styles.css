@@ -5,12 +5,13 @@
 
 .background {
   background-image: url(../images/working.jpg);
-  width: 1360px;
   height: 560px;
+  width: 1600px;
   position: relative;
   z-index: 1;
   color: white;
   text-align: center;
+  display: inline-block;
 }
 
 .background::after {
@@ -18,7 +19,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1360px;
+  width: 1599px;
   height: 560px;
   background: rgba(47, 48, 58, 0.4);
   z-index: -1;
@@ -76,7 +77,11 @@ a {
   color: #757575;
 }
 
-.number-color:hover {
+.menu-email:hover svg {
+  color: var(--brand-color);
+}
+
+.menu-email:hover span {
   color: var(--brand-color);
 }
 
@@ -121,6 +126,7 @@ a {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 2px;
+  margin-top: 30px;
 }
 
 .text > p {
@@ -129,6 +135,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  margin-top: 10px;
 
   letter-spacing: 0.03em;
 
@@ -136,8 +143,7 @@ a {
 }
 
 .text-columns {
-  width: 1357px;
-  height: 450px;
+  height: 430px;
 }
 
 ul.col4 {
@@ -145,17 +151,20 @@ ul.col4 {
   padding-left: 100px;
   float: left;
   padding-bottom: 0px;
-  margin: 15px 0px;
-  width: 1250px;
+  width: 1170px;
+  height: 251px;
   padding-top: 70px;
   list-style-type: none;
   text-align: left;
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 ul.col4 li {
-  padding-right: 2px;
+  padding-right: 0px;
   display: inline;
-  padding-left: 2px;
+  padding-left: 21px;
   float: left;
   padding-bottom: 2px;
   width: 24%;
@@ -168,18 +177,20 @@ ul.col4 li {
 }
 
 .icons-work {
-  width: 265px;
-  height: 150px;
+  width: 270px;
+  height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
 }
 
 .icon-working {
   display: inline-flex;
-  height: 64px;
-  width: 64px;
-  margin-left: 100px;
-  margin-top: 45px;
+  height: 70px;
+  width: 53px;
+  margin-left: 102px;
+  margin-right: 102px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,7 +211,6 @@ ul.col4 li {
 }
 
 .section-info {
-  width: 1357px;
   height: 440px;
 }
 
@@ -208,12 +218,13 @@ ul.col4 li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: 50px;
 }
 
 .image-item {
-  width: 280px;
-  height: 240px;
-  margin: 20px;
+  width: 370px;
+  height: 294px;
+  margin-right: 22px;
 }
 .image-lap {
   background-image: url(../images/portatil.jpg);
@@ -231,7 +242,7 @@ ul.col4 li {
 }
 
 .description {
-  width: 280px;
+  width: 369px;
   height: 55px;
   color: #ffffff;
   font-family: "Roboto";
@@ -243,19 +254,19 @@ ul.col4 li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   background: rgba(47, 48, 58, 0.8);
-  margin-top: 185px;
+  margin-top: 239px;
 }
 
 .margin-text {
-  width: 280px;
+  width: 370px;
   height: 55px;
   padding-top: 20px;
 }
 .section-group {
-  width: 1360px;
-  height: 475px;
+  height: 640px;
   background: #f5f4fa;
-  padding-top: 40px;
+  padding-top: 50px;
+  margin-top: 70px;
 }
 .name-section {
   font-family: "Roboto";
@@ -265,18 +276,21 @@ ul.col4 li {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+  margin-left: 27px;
+  margin-bottom: 50px;
 }
 
 .group-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: 75px;
+  margin-right: 20px;
 }
 .card {
-  max-width: 188px;
-  height: 300px;
+  width: 270px;
+  height: 428px;
   margin-bottom: 20px;
   margin-right: 30px;
   overflow: hidden;
@@ -286,8 +300,8 @@ ul.col4 li {
 }
 
 .card-image {
-  max-width: 215px;
-  height: 180px;
+  width: 270px;
+  height: 260px;
 }
 
 .card-image.no-gap {
@@ -314,7 +328,7 @@ ul.col4 li {
 
 .card-heading {
   margin: 0;
-  padding: 5px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -322,7 +336,7 @@ ul.col4 li {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   color: #212121;
 }
 
@@ -332,6 +346,7 @@ ul.col4 li {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
+  padding-top: 10px;
 }
 
 .social-networks {
@@ -340,13 +355,15 @@ ul.col4 li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 16px;
+  margin-left: 41px;
+  margin-right: 41px;
 }
 .circle-icon {
   background: #ffffff;
   color: #afb1b8;
-  width: 35px;
-  height: 35px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
 }
 
@@ -369,29 +386,55 @@ ul.col4 li {
   margin-left: 9px;
 }
 
-.fa-margin {
+.fa-margin-in {
   font-size: 1.5em;
-  margin-left: 7px;
-  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-margin-tw {
+  font-size: 1.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-margin-fa {
+  font-size: 1.5em;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-margin-li {
+  font-size: 1.5em;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .section-client {
-  width: 1360px;
-  height: 250px;
+  height: 300px;
   background: #ffffff;
+  padding-top: 40px;
 }
 
 .group-clients {
-  width: 1357px;
-  height: 60px;
+  height: 92px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: 24px;
 }
 
 .client {
-  width: 130px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
   left: 415px;
   top: 2447px;
   box-sizing: border-box;
@@ -400,15 +443,76 @@ ul.col4 li {
 }
 
 .client-right {
-  margin-right: 15px;
+  margin-right: 31px;
 }
 
-.icon-client {
+.icon-client-1 {
   display: inline-flex;
-  height: 70px;
-  width: 70px;
-  margin-left: 29px;
-  margin-top: 12px;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-client-2 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-client-3 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-client-4 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-client-5 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-client-6 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -433,36 +537,49 @@ ul.col4 li {
   background-image: url(../images/company-6.svg);
 }
 
-.client:hover {
+.company-1:hover .client {
   border: 1px solid #2196f3;
 }
-
-.with-icon-company-1:hover {
+.company-1:hover .with-icon-company-1 {
   background-image: url(../images/company-1-blue.svg);
 }
 
-.with-icon-company-2:hover {
+.company-2:hover .client {
+  border: 1px solid #2196f3;
+}
+.company-2:hover .with-icon-company-2{
   background-image: url(../images/company-2-blue.svg);
 }
 
-.with-icon-company-3:hover {
+.company-3:hover .client {
+  border: 1px solid #2196f3;
+}
+.company-3:hover .with-icon-company-3{
   background-image: url(../images/company-3-blue.svg);
 }
 
-.with-icon-company-4:hover {
+.company-4:hover .client {
+  border: 1px solid #2196f3;
+}
+.company-4:hover .with-icon-company-4{
   background-image: url(../images/company-4-blue.svg);
 }
 
-.with-icon-company-5:hover {
+.company-5:hover .client {
+  border: 1px solid #2196f3;
+}
+.company-5:hover .with-icon-company-5{
   background-image: url(../images/company-5-blue.svg);
 }
 
-.with-icon-company-6:hover {
+.company-6:hover .client {
+  border: 1px solid #2196f3;
+}
+.company-6:hover .with-icon-company-6{
   background-image: url(../images/company-6-blue.svg);
 }
 
 .section-footer {
-  width: 1360px;
   height: 255px;
   background-color: var(--background-color);
   color: white;
@@ -489,8 +606,9 @@ ul.col4 li {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-left: 249px;
+  padding-left: 227px;
   padding-top: 55px;
+  width: 287px;
 }
 
 .contact > spam {
@@ -517,8 +635,35 @@ ul.col4 li {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-
+  margin-right: 8px;
   color: #212121;
+  border: none;
+  border-radius: 4px;
+}
+
+.button-1 {
+  width: 73px;
+  height: 38px;
+}
+
+.button-2 {
+  width: 128px;
+  height: 38px;
+}
+
+.button-3 {
+  width: 145px;
+  height: 38px;
+}
+
+.button-4 {
+  width: 103px;
+  height: 38px;
+}
+
+.button-5 {
+  width: 130px;
+  height: 38px;
 }
 
 .submenu:hover {
@@ -528,7 +673,7 @@ ul.col4 li {
 
 .container {
   position: absolute;
-  width: 1200px;
+  width: 1600px;
   height: 2078px;
   left: 0px;
   right: 0px;
@@ -553,12 +698,7 @@ ul.col4 li {
   margin-right: 40px;
 }
 
-.menu-item5 {
-  margin-right: 100px;
-}
-
 .seccion-menu {
-  width: 1360px;
   height: 20px;
   left: 0px;
   right: 0px;
@@ -567,8 +707,8 @@ ul.col4 li {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  margin: 0;
   padding-top: 15px;
+  margin-right: 250px;
 }
 
 .email {
@@ -580,8 +720,8 @@ ul.col4 li {
 }
 
 .seccion-menu-2 {
-  width: 1360px;
   height: 50px;
+  padding-right: 250px;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -604,15 +744,14 @@ ul.col4 li {
 
 .container-2 {
   position: absolute;
-  width: 1200px;
-  height: 1265px;
+  width: 1600px;
+  height: 1800px;
   left: 0px;
   right: 0px;
 }
 
 .section-group-2 {
-  width: 1357px;
-  height: 950px;
+  height: 1400px;
   background: #ffffff;
   padding-top: 100px;
 }
@@ -630,15 +769,15 @@ ul.col4 li {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 800px;
   height: 810px;
   margin: auto;
+  margin-left: 50px;
 }
 .card-2 {
-  max-width: 340px;
-  height: 255px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  width: 370px;
+  height: 404px;
+  margin-bottom: 30px;
+  margin-right: 30px;
   overflow: hidden;
   border: 1px solid #eeeeee;
 }
@@ -649,8 +788,14 @@ ul.col4 li {
 }
 
 .card-image-2 {
-  width: 220px;
-  height: 180px;
+  width: 370px;
+  height: 294px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image-2:hover .animation-text {
+  transform: translatex(0);
 }
 
 .card-image-2.no-gap-2 {
@@ -659,21 +804,44 @@ ul.col4 li {
 
 .card-heading-2 {
   margin: 0;
-  padding-left: 2px;
-  padding-top: 7px;
+  padding-left: 24px;
+  padding-top: 27px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.card-heading-3 {
+  margin: 0;
+  padding-left: 24px;
+  padding-top: 15px;
   text-align: left;
   margin-left: 10px;
 }
 
 .animation-text {
-  width: 227px;
-  height: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(33, 150, 243, 0.9);
-  z-index: -1;
-  transition: all 0.3s ease-in-out;
+  transform: translatey(100%);
+  transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 0;
-  padding-left: 5px;
+}
+
+.animation-text > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #ffffff;
 }
 
 .image-pagine {
@@ -733,65 +901,45 @@ ul.col4 li {
 .image-pagine:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 .image-basquetball:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 
 .image-restaurant:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 
 .image-headphones:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 
 .image-box:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 
 .image-monitor:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 
 .image-book:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 
 .image-labeltag:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
 }
 
 .image-computer:hover .animation-text {
   opacity: 1;
   bottom: 0;
-  height: 180px;
-}
-
-.text-pagine {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 21px;
-  letter-spacing: 0.01em;
-  justify-content: center;
-  color: #ffffff;
 }
 
 .submenu {
@@ -824,10 +972,9 @@ ul.col4 li {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-left: 150px;
-  margin-right: 60px;
+  padding-left: 227px;
   padding-top: 55px;
-  width: 420px;
+  width: 287px;
 }
 
 .contact-2 > spam {
@@ -847,9 +994,8 @@ ul.col4 li {
 }
 
 .icons {
-  width: 500px;
+  width: 300px;
   height: 100px;
-  padding-left: 5px;
   padding-top: 55px;
 }
 
@@ -861,16 +1007,22 @@ ul.col4 li {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
+  margin-left: 16px;
 }
 
 .circulo {
   background: rgba(255, 255, 255, 0.1);
-  width: 55px;
-  height: 55px;
+  color: #ffffff;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+.circulo:hover {
+  background: #2196f3;
+  color: #ffffff;
 }
 
 .group-icons {
@@ -894,7 +1046,7 @@ body {
 
 .container-3 {
   position: absolute;
-  width: 1360px;
+  width: 1600px;
   height: 998px;
   left: 0px;
   right: 0px;
@@ -1104,7 +1256,7 @@ button:focus {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  margin-left: 40px;
+  margin-left: 15px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -1118,8 +1270,9 @@ button:focus {
   box-sizing: border-box;
   width: 358px;
   height: 50px;
-  padding-left: 16px;
+  padding-left: 14px;
   margin-right: 11px;
+  margin-left: 14px;
   top: 2787px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
