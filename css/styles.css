@@ -547,35 +547,35 @@ ul.col4 li {
 .company-2:hover .client {
   border: 1px solid #2196f3;
 }
-.company-2:hover .with-icon-company-2{
+.company-2:hover .with-icon-company-2 {
   background-image: url(../images/company-2-blue.svg);
 }
 
 .company-3:hover .client {
   border: 1px solid #2196f3;
 }
-.company-3:hover .with-icon-company-3{
+.company-3:hover .with-icon-company-3 {
   background-image: url(../images/company-3-blue.svg);
 }
 
 .company-4:hover .client {
   border: 1px solid #2196f3;
 }
-.company-4:hover .with-icon-company-4{
+.company-4:hover .with-icon-company-4 {
   background-image: url(../images/company-4-blue.svg);
 }
 
 .company-5:hover .client {
   border: 1px solid #2196f3;
 }
-.company-5:hover .with-icon-company-5{
+.company-5:hover .with-icon-company-5 {
   background-image: url(../images/company-5-blue.svg);
 }
 
 .company-6:hover .client {
   border: 1px solid #2196f3;
 }
-.company-6:hover .with-icon-company-6{
+.company-6:hover .with-icon-company-6 {
   background-image: url(../images/company-6-blue.svg);
 }
 
